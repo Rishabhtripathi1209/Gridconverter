@@ -72,8 +72,8 @@ def arrange_images_in_grid(images, rows, cols, output_pdf_path):
 # ✅ Usage
 
 # Ensure the output PDF path includes the file name and extension
-pdf_file = r"D:\nervous system structure\SkeletalMuscle_1.pdf"
-output_pdf = r"D:\nervous system structure\grid_output_4x2_up_down_corrected.pdf"  # Ensure the file name ends with .pdf
+pdf_file = r"xyz.pdf" # pdf file path which needs to be converted
+output_pdf = r"path.pdf"  # Ensure the file name ends with .pdf
 
 # Convert PDF to images (skipping the first page)
 images = convert_pdf_to_images(pdf_file)
